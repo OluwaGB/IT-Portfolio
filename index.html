@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- FontAwsome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+      <!-- Google Icons -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <title>Portfolio</title>
+</head>
+<body>
+   <!----<div class="wrapper">i want to change mode</div>-->
+    <div id="wrapper">
+        <div id="menubar">
+            <i class="fa fa-bars" id="menu"></i>
+            <div id="menus">
+                <ul id="dropdowns">
+                    <li id="list">Home</li>
+                    <li id="list">About</li>
+                    <li id="list">Projects</li>
+                    <li id="list">Contacts</li>
+                    <li id="list">Resume</li>
+                </ul>
+            </div>
+        </div>
+        <aside>
+         <i class="fa fa-home" id="icon" title="home"></i>
+         <i class="fa fa-user" id="icon" title="user"></i>
+         <i class="fa fa-code" id="icon" title="projects"></i>
+         <i class=" fa fa-file"id="icon" title="resume"></i>
+         <i class="fa fa-envelope" id="icon" title="Contact"></i>
+         <i class="fa fa-moon-o"  id="icon" title="mode"></i>
+        </aside>
+        <div id="render">
+            <div id="content">
+                <h2 id="name">Iyanuoluwa Oyeboade</h2>
+        <p id="dsc">frontend developer</p>
+        <button id="prj">View projects</button><button id="toggle">Next</button><br>
+        <span><a href="#"><i class="fa fa-twitter" title="x"></i></a>
+            <a href="#"><i class="fa fa-phone" title="call"></i></a>
+           
+            <a href="#"><i class="fa fa-linkedin" title="linkedin"></i></a>
+            <a href="#"><i class="fa fa-instagram" title="instagram"></i></a>
+            <a href="#"><i class="fa fa-github" title="git"></i></a></span>
+            </div>
+            <div id="viewer">
+                <img src="img/places2.jpg" id="colsImg" class="picture"/>
+            </div>
+            <div id="toggleImgs">
+                <!--<img src="img/38163-St-Peters-Square.jpg"  id="tImgs" id="colsImg"/><img src="img/507063-mykonos.jpg" class="tImg" id="colsImg"/>
+                <img src="img/38163-St-Peters-Square.jpg" class="tImg" id="colsImg"/>-->
+                <img src="" class="picture" / >
+            </div>
+            <div id="rerender">
+                <h4>Hello </h4>
+                <h1 id=""dsc>i'm <strong>Iyanuoluwa<br/>Oyeboade</strong></h1>
+                <p>A frontend Developer</p>
+                <span><button id="hire">HIRE ME</button><button id="work">MY WORKS</button></span>
+            </div>
+        </div>
+        <div id ="form" >
+            <button id="s1" class="formBtn">Sign up</button><button  id="s2"class="formBtn">Sign in</button>
+            <div class="form">
+                <div id="signup" class="signup">
+                    <input type="text" placholder="Enter full name"/>
+                    <input type="email" placholder="Enter your mail"/>
+                    <input type="tel" placholder="Enter your phoneno"/>
+                    <input type="password" placholder="Enter your password"/>
+                    <input type="password" placholder="Confirm password"/>
+                    <button id="register">Register</button>
+    
+                </div>
+                <div class="signin" id="signin ">
+                    <input type="email" placholder="Enter your mail"/>
+                    
+                    <input type="password" placholder="Enter your password"/>
+                    
+                    <button id="signin">Sign in</button>
+    
+                </div>
+        
+            </div>
+            
+        </div>
+        <div id="projects">
+            <section id="section2">
+                <h2>Discover Your new favorite Projects</h2>
+                <div id="places" class="places">
+                    <div id="col1" class="colm">
+                        <h3>Project1</h3>
+                    </div>
+                   
+                    <div id="col3" class="colm">
+                        <h3>Project2</h3>
+                    </div>
+                    <div id="col4" class="colm">
+                        <h3>Project3</h3>
+                    </div>
+                    <div id="col5" class="colm">
+                        <h3>Project4</h3>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="section3">
+                <h2>Projects Catalogue</h2>
+                <div id="places">
+                    <div id="cols">
+                        <img src="img/place.jpg" id="colsImg"/>
+                        <span><h4>Project</h4>
+                            <p>Short description</p></span>
+                        
+                    </div>
+                    <div id="cols">
+                        <img src="img/Screenshot_12-11-2024_7468_.jpeg" id="colsImg"/>
+                        <span><h4>Dictionary</h4>
+                            <p>A dictionary with a noun and trabscription alongside</p></span>
+                        
+                    </div>
+                    <div id="cols">
+                        <img src="img/place.jpg" id="colsImg"/>
+                        <span><h4>Project</h4>
+                            <p>Short description</p></span>
+                        
+                    </div>
+                    <div id="cols">
+                        <img src="img/netflix sc.png" id="colsImg"/>
+                        <span><h4>Project</h4>
+                            <p>Short description</p>
+                        
+                    </div>
+                </div>  
+            </section>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

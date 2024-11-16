@@ -1,0 +1,321 @@
+
+*{font-family:sans-serif;
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    color:rgb(139, 139, 139);
+}
+body{display:var(--display);
+flex-direction: var(--direction2);}
+#name{color:rgb(139, 139, 139);}
+:root{
+    --display:flex;
+    --direcion1:row;
+    --direction2:column;
+
+}.wrapper{
+    background-color: white;
+}
+#wrapper{
+    display:var(--display);
+    flex-direction: var(--direcion2);
+    background-image: url(img/person-hero-2.png);
+    background-position:right;
+    background-repeat: no repeat;
+    background-size:cover;
+    background-blend-mode: overlay;
+    background-color: rgb(17, 17, 17);
+    min-height: 100vh;
+}
+aside{
+    display:var(--display);
+    flex-direction: var(--direction2);
+    margin-top:10vh;
+    margin-bottom: 10vh;
+    margin-left: 3vw;
+
+}
+i{color:rgb(41, 40, 40);
+background-color:rgb(245, 240, 240);
+padding:0.8rem;
+margin-top:3vh;
+border-radius:100%;}
+#render{padding-top:30vh;
+    padding-bottom:30vh;
+    margin:auto;
+   
+    
+}
+i:hover{
+    color:white;
+    background-color: dodgerblue;
+}
+h2{line-height:5vh;}
+p{color:dodger blue;
+line-height:5vh;}
+button{cursor: pointer;
+    color:dodgerblue;
+    background-color:transparent;
+    border:1px solid dodgerblue;
+    padding:0.5rem;
+}
+button:hover,#hire{
+    color:white;
+    background-color: dodgerblue;
+}
+#content{
+    line-height:20px;
+}
+#rerender{
+    display:none;
+    }
+    h4{color:dodgerblue;}
+    strong{
+        color:dodgerblue;
+    }
+    h1{color:white;}
+    #rerender span{
+        display:var(--display);
+        flex-direction: var(--direcion1);
+        margin-right: 3vw;
+    }
+    #hire{margin-right:3vw}
+    #newContent p{
+        color:white;
+    }
+    #content h2{color:white;}
+    #menubar{display:flex;
+        align-items: left;
+        min-width:10vw;
+        flex-direction:column;
+        /*justify-content:flex-end;*/
+        background-color:transparent;
+        padding:0.8rem;
+        min-height: 1.7vh;
+        padding-bottom:3vh;
+        display:none;
+    }
+    ul{margin-top:3vh;
+    list-style-type:none;
+
+    }
+    li{line-height:5vh;
+    text-align: left;}
+    /*css from hotel bookingproject*/
+    #section2 div{
+        max-width:10vw;
+    }
+    #cols{cursor:pointer;
+        max-width:20vw;
+    }
+    #col1{background-image: url(img/spa.jpeg);
+        border-radius:12px;
+        padding:30px;
+        position:relative;
+        color:white;
+        background-size: cover;
+        height:150px;
+        padding:125px;
+        margin:5px;
+            min-width: 20vw;;
+        width:auto;}
+        #col2{background-image: url(img/HCOM_POOL_Stocksy_300dpi.jpg);
+            border-radius:12px;
+            padding:125px;
+            min-width:20vw;
+            position:relative;
+            color:white;
+            background-size: cover;
+            height:150px;
+            width:auto;
+            margin:5px;}
+            #col3{background-image: url(img/petfriendly.jpeg);
+                border-radius:12px;
+                padding:30px;
+                position:relative;
+                color:white;
+                padding:125px;
+                min-width:20vw;
+                background-size: cover;
+                height:150px;
+                width:auto;
+                margin:5px;}
+                #col4{background-image: url(img/aparthotel.jpeg);
+                    border-radius:12px;
+                    padding:30px;
+                    position:relative;
+                    color:white;
+                    background-size: cover;
+                    height:150px;
+                    padding:125px;
+                    margin:5px;
+                    min-width:20vw;
+                    width:auto;}
+                    #col5{background-image: url(img/PARTNER_Cowboy_Village_Resort.jpg);
+                        border-radius:12px;
+                        padding:30px;
+                        position:relative;
+                        color:white;
+                        padding:125px;
+                        margin:5px;
+            min-width:20vw;
+                        background-size: cover;
+                        height:150px;
+                        width:auto;}
+                        #sct3 h2{font-size:26px;
+                        font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                         'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        
+                    font-weight:300;}
+                    #colsImg{/*max-width:100%;*/
+                        max-width:20vw;
+                    border-radius:12px;}    
+                    h4{font: size 28px;
+                    color:rgb(73, 73, 73)}
+                    #cols{border:1px solid rgb(131, 127, 127);
+                        border-radius: 12px;
+                        margin:10px;
+                    }
+                    #cols span{margin-left:5px;
+                    display:grid;}
+                    #sct3{color:white;
+                    background-image: url(img/BG.jpg);
+                    background-blend-mode: overlay;
+                background-size: cover;
+            padding:30px;
+        color:white;
+        background-color: rgb(71, 71, 71);
+        width:100%;}
+        #sct3 span{display:flex;
+        justify-content: space-between;
+        margin:10px;}
+        #colsq{display:flex;
+            margin-top:20px;
+            justify-content: space-around;}
+            #details{background-color:white;
+            color:blue;
+        border-radius:12px;
+        border:none;
+        float:right;}
+        #details:hover{color:white;
+        background-color:blue;}
+        #card,#card1,#card2,#card3{
+            position:relative;
+            height:90px;
+            border-radius:12px;
+            min-width:20vw;
+        }
+        #card{ background-image: url(img/op1.jpg);
+            background-size: cover;
+        padding:30px;
+        color:white;
+        background-color: rgb(139, 139, 139);}
+        #card1{ background-image: url(img/op3.jpg);
+            background-size: cover;
+        padding:30px;
+        color:white;
+        background-color: rgb(139, 139, 139);}
+        #card2{ background-image: url(img/op4.jpg);
+            background-size: cover;
+        padding:30px;
+        color:white;
+        background-color: rgb(139, 139, 139);}
+        #card3{ background-image: url(img/op5.jpg);
+            background-size: cover;
+        padding:30px;
+        color:white;
+        background-color: rgb(139, 139, 139);}
+        #vbtn{position:absolute;
+            border:none;
+            color:white;
+            background-color:blue;
+        top:15px;
+        left:5px;}
+        input{background-color:transparent;
+            border:1px solid dodgerblue;
+            margin-top:3vh;
+        padding:1rem;}
+        
+        .signup,.signin{
+            display:flex;
+            flex-direction:column;
+        }
+        ::placeholder{
+            color:blue;
+        }
+        .signup{
+            display:none;
+          }
+          #sign,#register{
+            margin-top:3vh;
+            min-width:10vw;
+          }
+        .form{margin:auto;
+        min-width:30vw;
+        display:var(--display);
+        flex-direction:var(--direcion1)
+    }
+    #form{
+        display:none;
+    }
+       /* #content button{border:none;
+            background-color:red;
+            color:white;
+            padding:5px;
+            border-radius:10px;
+        }*/
+        del,#content h3{font-weight:500;
+        font-size:20px;}
+        #sct4{position:relative;
+            height:300px;
+        }
+        #bigImage{max-width:30%;
+        position: absolute;
+        top:20px;
+        left:30px;}
+        #img{max-width:10%;
+        right:20px;
+        top:20px;
+        position: absolute;
+        }
+        #places{
+            display:flex;
+            flex-direction: row;
+        }
+        .places div{
+            max-width:10vw;
+        }
+        #project h2{color:dodgerblue;}
+        .places h3{color:white;}
+        /*end of css from hotel img*/
+        #projects{display:none;}
+       /* #section2,#section3{display:none}*/
+       #toggleImgs{display:none;}
+    @media (max-width: 600px) {
+        aside{display:none}
+        ul{display:none}
+        #menubar{position:absolute;
+            display:block;
+        top:0;
+    left:36vh;}
+    #cols{
+        min-width:100vw;
+    }
+    #section2,#section3{
+        padding:1rem;
+    }
+    #cols,#colsImg,.colm{min-width:90vw;}
+    .places div{
+        min-width:100vw;
+    }
+   #places{display:flex;
+flex-direction:column;}
+#form{
+    margin:auto;
+    margin-top:30vh;
+}
+#signup{display:none;
+display:var(--display);
+flex-direction:var(--direction2);
+}
+    }
