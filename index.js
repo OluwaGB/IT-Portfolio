@@ -213,7 +213,7 @@ s2 = document.getElementById("s2")
 s1.onclick = function show(){
     signup.style.display ="block";
     signin.style.display = "none";
-    alert("signup")}
+    //alert("signup")}
     s2.addEventListener('click',()=>{
         signup.style.display ="none";
         signin.style.display = "block";
@@ -225,12 +225,12 @@ for(let i=0; i<formBtn.length; i++){
     formBtn[0].addEventListener('click',()=>{
         signup.style.display ="block";
         signin.style.display = "none"
-        alert("signup")
+        //alert("signup")
             })
             formBtn[1].addEventListener('click',()=>{
                 signin.style.display ="block";
                 signup.style.display = "none"
-                alert("signin")
+                //alert("signin")
                     })
 }
 
