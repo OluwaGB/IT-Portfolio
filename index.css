@@ -24,8 +24,11 @@ flex-direction: var(--direction2);}
     background-repeat: no repeat;
     background-size:cover;
     background-blend-mode: overlay;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
     min-height: 100vh;
+}
+#viewer{
+    display:none;
 }
 aside{
     display:var(--display);
@@ -40,7 +43,7 @@ background-color:rgb(245, 240, 240);
 padding:0.8rem;
 margin-top:3vh;
 border-radius:100%;}
-#render{padding-top:30vh;
+#render,#form{padding-top:30vh;
     padding-bottom:30vh;
     margin:auto;
    
@@ -242,6 +245,7 @@ button:hover,#hire{
         }
         ::placeholder{
             color:blue;
+            background-color:white;
         }
         .signup{
             display:none;
@@ -290,14 +294,23 @@ button:hover,#hire{
         /*end of css from hotel img*/
         #projects{display:none;}
        /* #section2,#section3{display:none}*/
+       .signup{
+        display:var(--display);
+        flex-direction:var(--direction2);
+        display:none;
+       }
        #toggleImgs{display:none;}
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
         aside{display:none}
         ul{display:none}
         #menubar{position:absolute;
             display:block;
         top:0;
     left:36vh;}
+    #signup{display:flex;
+        flex-direction:column;
+        min-width:80vw;
+    }
     #cols{
         min-width:100vw;
     }
@@ -308,14 +321,30 @@ button:hover,#hire{
     .places div{
         min-width:100vw;
     }
+    #aicon{margin-top:3vh;}
    #places{display:flex;
 flex-direction:column;}
 #form{
     margin:auto;
     margin-top:30vh;
 }
-#signup{display:none;
-display:var(--display);
-flex-direction:var(--direction2);
+.colm{
+    min-width:100vw;
+    display:none;
 }
+#signup{display:none;
+/*display:var(--display);
+flex-direction:var(--direction2);*/
+}
+#wrapper{display:flex;
+flex-direction:column;}
     }
+
+@media (max-width: 380px) {
+    #menubar{position:absolute;
+        display:block;
+    top:0;
+left:45vh;}
+
+}
+    

@@ -1,3 +1,6 @@
+console.log("hello")
+console.log("hello world")
+
 icon = document.querySelectorAll("#icon");
 
 const render= document.querySelector('#render');
@@ -115,7 +118,7 @@ for(i=0; i<icon.length; i++){
 
     })
     icon[2].addEventListener('click', ()=>{
-        console.log("hello")
+        //console.log("hello")
         content.style.display="none";
         wrapper.style.backgroundColor ="transparent";
         newContent.style.display="none";
@@ -137,11 +140,11 @@ const toggleElement =  [21,24,35,43,22]
 for(i=0;i<toggleElement.length; i++){
     alert(toggleElement[i]); 
 }
-   //menubar.style.backgroundColor="rgba(255, 252, 252, 0.99)";
+   /*menubar.style.backgroundColor="rgba(255, 252, 252, 0.99)";*/
     document.querySelector('#dropdowns').style.display = 'block';
 if(wrapper.style.backgroundColor==="black"){
     list.style.color = "white";
-    menubar.style.backgroundColor="rgba(255, 252, 252, 0.99)";
+    menubar.style.backgroundColor="transparent";
 
 }else{
     list.style.color = "black";
@@ -153,9 +156,9 @@ viewer = document.getElementById("viewer");
 toggleBtn = document.getElementById("toggle");
 toggleArray = ["img/07d7aa4a12f00583de5117f76a2e915f.jpg","img/38163-St-Peters-Square.jpg","img/507063-mykonos.jpg"]
 //let currentIndex = 0;
-picture = document.getElementsByClassName("tImgs")
+/*picture = document.getElementsByClassName("tImgs")
 //toggleBtn.addEventListener('click',()=>{//console.log(toggleArray[currentIndex])
-    /*for(i=0; i<toggleArray.le
+    for(i=0; i<toggleArray.le
     ngth; i++){
    viewer.setAttribute('src',toggleArray[i].src)
 console.log(`${viewer.src}`)}*/
@@ -182,8 +185,8 @@ console.log(`${viewer.src}`)}*/
    console.log(`${picture.src}`);
    console.log(`${picture}`)
 })*/
-alert("working");
-var toggleArray = ['img/places2.jpg','img/07d7aa4a12f00583de5117f76a2e915f.jpg','img/38163-St-Peters-Square.jpg','img/507063-mykonos.jpg']
+//alert("working");
+/*vartoggleArray = ['img/places2.jpg','img/07d7aa4a12f00583de5117f76a2e915f.jpg','img/38163-St-Peters-Square.jpg','img/507063-mykonos.jpg']
 toggle = document.getElementById('toggle');
 var currentIndex = 0;
 toggle.addEventListener('click',()=>{
@@ -201,7 +204,7 @@ picture.src = toggleArray[currentIndex]
    picture.src= toggleArray[currentIndex] 
    console.log(picture.src);
     
-})
+})*/
 
 signup = document.getElementById("signup");
     signin = document.getElementById("signin");
@@ -214,21 +217,22 @@ s1.onclick = function show(){
     s2.addEventListener('click',()=>{
         signup.style.display ="none";
         signin.style.display = "block";
-        alert("signin")})
-
-/*formBtn = document.getElementsByClassName('formBtn');
+        //alert("signin")})
+    })
+formBtn = document.getElementsByClassName('formBtn');
 for(let i=0; i<formBtn.length; i++){
     
     formBtn[0].addEventListener('click',()=>{
-signup.style.display ="block";
-signin.style.display = "none"
-alert("signup")
-    })
-    formBtn[1].addEventListener('click',()=>{
-        signin.style.display ="block";
-        signup.style.display = "none"
-        alert("signin")
+        signup.style.display ="block";
+        signin.style.display = "none"
+        alert("signup")
             })
-}*/
+            formBtn[1].addEventListener('click',()=>{
+                signin.style.display ="block";
+                signup.style.display = "none"
+                alert("signin")
+                    })
+}
+
 
  
