@@ -19,7 +19,8 @@ flex-direction: var(--direction2);}
 #wrapper{
     display:var(--display);
     flex-direction: var(--direcion2);
-    background-image: url(img/person-hero-2.png);
+   /* background-image: url(img/person-hero-2.png);*/
+
     background-position:right;
     background-repeat: no repeat;
     background-size:cover;
@@ -308,6 +309,7 @@ button:hover,#hire{
         top:0;
     left:36vh;}
     #signup{display:flex;
+        margin:auto;
         flex-direction:column;
         min-width:80vw;
     }
@@ -337,7 +339,8 @@ flex-direction:column;}
 flex-direction:var(--direction2);*/
 }
 #wrapper{display:flex;
-flex-direction:column;}
+flex-direction:column;
+background-color:black;}
     }
 
 @media (max-width: 380px) {
