@@ -351,6 +351,9 @@ background-color:black;}
         display:block;
     top:0;
 left:45vh;}
+    #projects,#section3{
+        padding:1.5rem;
+    }
 
 }
     
