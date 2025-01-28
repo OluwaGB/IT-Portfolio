@@ -308,24 +308,30 @@ button:hover,#hire{
             display:block;
         top:0;
     left:36vh;}
+    body{
+        max-width:100vw;
+       
+    }
     #signup{display:flex;
         margin:auto;
         flex-direction:column;
         min-width:80vw;
     }
-    #cols{
-        min-width:100vw;
+    #cols{margin:auto;
+        min-width:80vw;
     }
     #section2,#section3{
         padding:1rem;
     }
-    #cols,#colsImg,.colm{min-width:90vw;}
+    #cols,#colsImg,.colm{min-width:100vw;
+    margin:auto;}
     .places div{
         min-width:100vw;
     }
     #aicon{margin-top:3vh;}
    #places{display:flex;
-flex-direction:column;}
+flex-direction:column;
+margin:auto;}
 #form{
     margin:auto;
     margin-top:30vh;
@@ -335,22 +341,39 @@ flex-direction:column;}
     display:none;
 }
 #signup{display:none;
+    margin:auto;
+    
 /*display:var(--display);
 flex-direction:var(--direction2);*/
 }
+#colsImg{min-width:80vw}
 #wrapper{display:flex;
 flex-direction:column;
 background-color:black;}
+#projects{margin:auto;
+    padding:1rem;
+}
+#projects,#section3{
+    padding:1.5rem;
+}
     }
-    #projects{
-        padding:1rem;
-    }
+    
 
 @media (max-width: 380px) {
     #menubar{position:absolute;
         display:block;
     top:0;
 left:45vh;}
-
+img{min-width:50vw;}
+#projects,#section3{
+    padding:1.5rem;
+    margin:auto;
+}
+body{
+    max-width:100vw;
+}
+#colsImg{min-width:80vw}
+#cols{margin:auto;
+min-width:80vw}
 }
     

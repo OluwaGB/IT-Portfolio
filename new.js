@@ -1,3 +1,5 @@
+console.log("hello")
+alert("hello");
 alert("jesus")
 console.info ("jesus")
 console.log("hello")
@@ -22,9 +24,7 @@ toggleImgs = document.querySelector('#toggleImgs');
 form = document.getElementById("form");
 viewer = document.getElementById("viewer")
 toggleImgs = document.getElementById("toggleImgs")
-
-console.log("hello");
-
+/*menu bar item styling*/
 for(x=0; x<list.length; x++){
     list[1].addEventListener('click',()=>{
         console.log("render");
@@ -33,6 +33,61 @@ for(x=0; x<list.length; x++){
         project.style.display="none"
         form.style.display ="none"
         //content.style.display="none  "
+        //https://drive.google.com/drive/folders/1LYpMCRDxejVuJDFOfRkc-GCWUht_HcDk?usp=drive_link
+
+    })
+    list[0].addEventListener('click',()=>{
+        console.log("render");
+        newContent.style.display= "none";
+        toggleImgs.display = "none"
+        content.style.display="block"
+        project.style.display="none"
+        form.style.display ="none"
+
+    })
+    list[2].addEventListener('click',()=>{
+        console.log("render");
+        newContent.style.display= "none";
+        content.style.display="none";
+        project.style.display="block";
+        form.style.display ="none"
+       /* wrapper.style.backgroundColor="black";*/
+
+    })
+    list[4].addEventListener('click',()=>{
+        console.log("render");
+        newContent.style.display= "none";
+        toggleImgs.display = "none"
+        content.style.display="none"
+        project.style.display="none"
+        form.style.display ="block"
+        viewer.style.display = "none";
+
+    })
+}
+for(i=0; i<icon.length; i++){
+    icon[5].addEventListener('click',()=>{
+        console.log("alertmode");
+         //newContent.style.backgroundColor = "white";
+       content.style.display = content.style.display === 'block'? 'none' : 'block';
+       if(content.style.display === 'block'){
+        content.style.display = 'none'
+       }else{
+        content.style.display = 'block'
+       }
+    })}
+    icon[4].addEventListener('click',()=>{
+        //alert("hello world");
+        newContent.style.display= "none";
+        content.style.display="none";
+        project.style.display="none";
+        form.style.display ="block";
+         
+         let background = 'none'
+        background = background === 'none'? 'block' : 'none'
+        document.getElementsByClassName('wrapper').style.display = background;
+    })
+    //content.style.display="none  "
         //https://drive.google.com/drive/folders/1LYpMCRDxejVuJDFOfRkc-GCWUht_HcDk?usp=drive_link
 
     })
@@ -98,6 +153,16 @@ for(i=0; i<icon.length; i++){
         background = background === 'none'? 'block' : 'none'
         document.getElementsByClassName('wrapper').style.display = background;
     })
+    //content.style.display="none  "
+        //https://drive.google.com/drive/folders/1LYpMCRDxejVuJDFOfRkc-GCWUht_HcDk?usp=drive_link
+
+    
+    menu.addEventListener('click',()=>{console.log("hello");
+        alert("hello")
+        if(menus.style.display === 'block'){
+            menus.style.display='none'
+        } 
+    else{menus.style.display = 'block'};
     icon[0].addEventListener('click', ()=>{
         //,.mnll;
         //console.log("hello")
@@ -133,7 +198,7 @@ for(i=0; i<icon.length; i++){
 }
 
 
-menu.addEventListener('click',()=>{console.log("hello");
+/*menu.addEventListener('click', ()=>{console.log("hello");
     alert("hello")
     if(menus.style.display === 'block'){
         menus.style.display='none'
@@ -143,8 +208,8 @@ else{menus.style.display = 'block'};
 const toggleElement =  [21,24,35,43,22]
 for(i=0;i<toggleElement.length; i++){
     alert(toggleElement[i]); 
-}
-   /*menubar.style.backgroundColor="rgba(255, 252, 252, 0.99)";*/
+}*/
+   menubar.style.backgroundColor="rgba(255, 252, 252, 0.99)";*
     document.querySelector('#dropdowns').style.display = 'block';
 if(wrapper.style.backgroundColor==="black"){
     list.style.color = "white";
@@ -156,9 +221,9 @@ if(wrapper.style.backgroundColor==="black"){
 }
  
 })
-viewer = document.getElementById("viewer");
-toggleBtn = document.getElementById("toggle");
-toggleArray = ["img/07d7aa4a12f00583de5117f76a2e915f.jpg","img/38163-St-Peters-Square.jpg","img/507063-mykonos.jpg"]
+//viewer = document.getElementById("viewer");
+//toggleBtn = document.getElementById("toggle");
+//toggleArray = ["img/07d7aa4a12f00583de5117f76a2e915f.jpg","img/38163-St-Peters-Square.jpg","img/507063-mykonos.jpg"]
 //let currentIndex = 0;
 /*picture = document.getElementsByClassName("tImgs")
 //toggleBtn.addEventListener('click',()=>{//console.log(toggleArray[currentIndex])
@@ -239,4 +304,4 @@ for(let i=0; i<formBtn.length; i++){
 }
 
 
- 
+   
