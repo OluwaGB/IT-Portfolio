@@ -364,6 +364,7 @@ background-color:black;}
         display:block;
     top:0;
 left:45vh;}
+<<<<<<< HEAD
 img{min-width:50vw;}
 #projects,#section3{
     padding:1.5rem;
@@ -375,5 +376,9 @@ body{
 #colsImg{min-width:80vw}
 #cols{margin:auto;
 min-width:80vw}
+=======
+ 
+
+>>>>>>> a3664991243d4b1953a9819d68655d2f631333a1
 }
     
