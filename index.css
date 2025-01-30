@@ -301,6 +301,25 @@ button:hover,#hire{
         display:none;
        }
        #toggleImgs{display:none;}
+       /*progreesbar styling*/
+       progress{color:dodgerblue;
+    animation-name: iyanu;
+animation-duration:3s}
+::-webkit-progress-bar{
+    background-color:black;
+}
+::-webkit-progress-value{
+    background-color:dodgerblue;
+}
+@keyframes iyanu{
+    from 0%{
+        min-width:10%;
+        color:red;
+
+    }
+100%{min-width:100%;
+    color:blue;}
+}
     @media (max-width: 800px) {
         aside{display:none}
         ul{display:none}
@@ -308,6 +327,11 @@ button:hover,#hire{
             display:block;
         top:0;
     left:36vh;}
+    #skills{
+        display:flex;
+        flex-direction:column;
+        margin:auto
+    }
     body{
         max-width:100vw;
        
@@ -357,13 +381,18 @@ background-color:black;}
     padding:1.5rem;
 }
     }
-    
+   
 
 @media (max-width: 380px) {
     #menubar{position:absolute;
         display:block;
     top:0;
 left:45vh;}
+#skills{
+    display:flex;
+    flex-direction:column;
+    margin:auto
+}
 <<<<<<< HEAD
 img{min-width:50vw;}
 #projects,#section3{

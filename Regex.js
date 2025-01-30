@@ -7,10 +7,10 @@ if(checkPassword==true){
 } else{
     alert("Password not strong and can be easily compromised")
 }
-alert("jesus")
-console.info ("jesus")
+/*alert("jesus")
+//console.info ("jesus")
 console.log("hello")
-console.log("hello world")
+console.log("hello world")*/
 
 icon = document.querySelectorAll("#icon");
 
@@ -32,9 +32,9 @@ form = document.getElementById("form");
 viewer = document.getElementById("viewer")
 toggleImgs = document.getElementById("toggleImgs")
 
-console.log("hello");
+//console.log("hello");
 
-menu.addEventListener('click',()=>{//console.log("hello");
+menu.addEventListener('click',()=>{
     alert("hello")
     if(menus.style.display === 'block'){
         menus.style.display='none'
@@ -59,7 +59,7 @@ if(wrapper.style.backgroundColor==="black"){
 })
 for(x=0; x<list.length; x++){
     list[1].addEventListener('click',()=>{
-        console.log("render");
+       // console.log("render");
         newContent.style.display= "block";
         content.style.display="none"
         project.style.display="none"
